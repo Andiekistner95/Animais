@@ -21,9 +21,10 @@ public class TesteGato {
 		 */
 		for(Gato gato : lGatos) {
 			
-            System.out.println(gato.toString());
+            System.out.println(gato.toString()+ gato.som_Animal());
     
         }
+		
 		
 	}
 
